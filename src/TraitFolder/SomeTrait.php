@@ -3,7 +3,7 @@ namespace Nwehrhan\TestPhpstan\TraitFolder;
 
 trait SomeTrait
 {
-    public function traitFunctions(): string
+    public function traitFunction(): string
     {
         return 'I am a trait function';
     }
